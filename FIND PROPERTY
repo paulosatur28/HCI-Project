@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIND A PROPERTY</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
+    <link rel="stylesheet" href="HCI CSS.css">
+    <style type=""></style>
+    <style type="text/css">    
+        a {text-decoration:none;}
+    </style>
+</head>
+<body>
+    <div class ="w3-container w3-light-grey">
+        <a href="ABOUT US.html">
+            <h1 id="menu">ABOUT US</h1>
+        </a>
+        <a href="CONTACT US.html">
+            <h1 id="menu">CONTACT US</h1>
+        </a>
+        <a href="HCI PROJECT.html">
+            <h1 id="head1"><b>AGP REAL ESTATES</b></h1>
+        </a>
+        <div class="search">
+            <span class="search-icon material-symbols-outlined">search</span>
+            <input class="search-input" type="search" placeholder="Search">
+        </div>
+        <a href="FINDPROPERTY.html">
+            <button class="button">Find Property</p1>
+        </a>
+    </div> <br>
+    <div class="w3-container w3-card 4 w3-dark-grey">
+        <p style="margin-left: 20px; font-family: Arial, Helvetica, sans-serif; opacity: 0.8;">Filter</p>
+        <div class="verticalLine" style="margin-left: 120px;">
+        </div>
+    </div>
+        <label style="margin-top: 20px; margin-left: 135px; display: block; font-family: Arial, Helvetica, sans-serif; opacity: 0.8; line-height: 1;"><b>Location</b></label> <br>
+        <select name="location" id="location" style="margin-left: 135px; width: 340px; height: 40px;">
+            <option value=" " selected>All Locations</option>
+            <option value="Gusa">Gusa</option>
+            <option value="Nazareth">Nazareth</option>
+            <option value="Burgos">Burgos</option>
+            <option value="Laguindingan">Laguindingan</option>
+            <option value="Ozamis">Ozamis</option>
+        </select> 
+        <label style="margin-top: 20px; margin-left: 135px; display: block; font-family: Arial, Helvetica, sans-serif; opacity: 0.8; line-height: 1;"><b>Price</b></label> <br>
+            <select name="location" id="location" style="margin-left: 135px; width: 340px; height: 40px;">
+                <option value=" " selected>All Prices</option>
+                <option value="highest">10,000,000 and up</option>
+                <option value="medium">4,000,000 - 5,000,000</option>
+                <option value="lowest">1,500,000 - 4,000,000</option>
+            </select>
+            <label style="margin-top: 20px;  margin-left: 135px; display: block; font-family: Arial, Helvetica, sans-serif; opacity: 0.8; line-height: 0;"><b>Amenities</b></label>
+            <input type="checkbox" value="Amenity Deck" style="margin-left:125px; width: 60px; height: 40px;">
+            <label style="align-items: center; font-size: 13px;" for="Amenity Deck">Amenity Deck</label>
+            <input type="checkbox" style="margin-left: 10px; width: 60px; height: 40px;"> 
+            <label style="align-items: center; font-size: 13px;" for="Bball Court">Basketball Court</label>
+            <input type="checkbox" style="margin-left: 10px; width: 60px; height: 40px;"> 
+            <label style="align-items: center; font-size: 13px;" for="Pool">Pool</label>
+            <input type="checkbox" style=" margin-top: 20px; margin-left: 50px; width: 60px; height: 40px;">
+            <label style="align-items: center; font-size: 13px;" for="B Center">Business Center</label>
+            <input type="checkbox" value="Amenity Deck" style="margin-top: 20px; margin-left: 40px; width: 60px; height: 40px;">
+            <label style="align-items: center; font-size: 13px;" for="Gym">Gym</label>
+            <input type="checkbox" style="margin-left: 50px; width: 60px; height: 40px;"> 
+            <label style="align-items: center; font-size: 13px;" for="Parking">Parking</label>
+            <input type="checkbox" style="margin-left: 40px; width: 60px; height: 40px;"> 
+            <label style="align-items: center; font-size: 13px;" for="Roof Deck">Roof Deck</label>
+            <input type="checkbox" style=" margin-top: 20px; width: 60px; height: 40px;">
+            <label style="align-items: center; font-size: 13px;" for="Lounge Area">Lounge Area</label> 
+        <label style="margin-left: 135px; display: block;  margin-top: 20px; font-family: Arial, Helvetica, sans-serif; opacity: 0.8; line-height: 1;"><b>Property Type</b></label>        
+            <ul style="list-style-type: none;">
+                <li id="comlot" style="margin-left: 95px;">Commercial Lots</li>
+                <li id="comlot" style="margin-left: 25px;">Condominiums</li>
+                <li id="comlot" style="margin-left: 25px;">House and Lot</li>
+                <li id="comlot" style="margin-left: 25px;">Offices</li>
+                <li id="comlot" style="margin-left: 25px;">Residential Lots</li>
+            </ul> <br><br>
+        <label style=" margin-top: 20px; margin-left: 135px; display: block; font-family: Arial, Helvetica, sans-serif; opacity: 0.8; line-height: 1;"><b>Property Availability</b></label> <br>      
+            <ul style="list-style-type: none; margin-top: 0;">
+                <li id="comlot" style="margin-left: 94px;">Launching Soon</li>
+                <li id="comlot" style="margin-left: 25px;">Move-In Ready</li>
+                <li id="comlot" style="margin-left: 25px;">Newly Launched</li>
+                <li id="comlot" style="margin-left: 25px;">Pre-Selling</li>
+            </ul> <br><br>
+        <div class="w3-container w3-card 4 w3-dark-grey">
+            <p style="margin-left: 20px; font-family: Arial, Helvetica, sans-serif; opacity: 0.8;">Results</p>
+            <div class="verticalLine" style="margin-left: 100px;">
+                <p style="margin-left: 1150px; font-family: Arial, Helvetica, sans-serif; opacity: 0.8;">11 Results Found</p>
+            </div>
+        </div>
+        <div class="w3-container"> <br>
+            <div class="auimgrow1">
+                <a href="ELEGANCE.html">
+                <div class="image1">
+                    <img src="PROPERTIES/ipaz.jpg" alt="residential building">
+                    <p style="font-family: Arial, Helvetica, sans-serif; line-height: 0; opacity: 0.5; font-size: 15px; margin-top: 20px;"><b>MOVE-IN READY</b></p>
+                    <p style="font-family: Arial, Helvetica, sans-serif; font-size: 25px; line-height: 0.5; opacity: 0.8; margin-top: 5px;"><b>Elegance at AGP</b></p>
+                    <p style="font-family: Arial, Helvetica, sans-serif; line-height: 0; opacity: 0.5; font-size: 15px; margin-top: 5px;"><b>Gusa</b></p>
+                </div>
+                </a>
+                <a href="PREMIUM.html">
+                <div class="image1">
+                    <img src="PROPERTIES/jus.jpg" alt="building">
+                    <p style="font-family: Arial, Helvetica, sans-serif; line-height: 0; opacity: 0.5; font-size: 15px; margin-top: 20px;"><b>MOVE-IN READY</b></p>
+                    <p style="font-family: Arial, Helvetica, sans-serif; font-size: 25px; line-height: 0.5; opacity: 0.8; margin-top: 5px;"><b>Premium by AGP</b></p>
+                    <p style="font-family: Arial, Helvetica, sans-serif; line-height: 0; opacity: 0.5; font-size: 15px; margin-top: 5px;"><b>Nazareth</b></p>
+                </div>
+                </a>
+                <a href="THE STACK.html">
+                <div class="image1">
+                    <img src="PROPERTIES/yui.jpg" alt="secondary">
+                    <p style="font-family: Arial, Helvetica, sans-serif; line-height: 0; opacity: 0.5; font-size: 15px; margin-top: 20px;"><b>PRE-SELLING</b></p>
+                    <p style="font-family: Arial, Helvetica, sans-serif; font-size: 25px; line-height: 0.5; opacity: 0.8; margin-top: 5px;"><b>The Stack</b></p>
+                    <p style="font-family: Arial, Helvetica, sans-serif; line-height: 0; opacity: 0.5; font-size: 15px; margin-top: 5px;"><b>Butuan</b></p>
+                </div>
+                </a>
+                <a href="PRIMARIES.html">
+                <div class="image1">
+                    <img src="PROPERTIES/kaoz.jpg" alt="building">
+                    <p style="font-family: Arial, Helvetica, sans-serif; line-height: 0; opacity: 0.5; font-size: 15px; margin-top: 20px;"><b>MOVE-IN READY</b></p>
+                    <p style="font-family: Arial, Helvetica, sans-serif; font-size: 25px; line-height: 0.5; opacity: 0.8; margin-top: 5px;"><b>Primaries by AGP</b></p>
+                    <p style="font-family: Arial, Helvetica, sans-serif; line-height: 0; opacity: 0.5; font-size: 15px; margin-top: 5px;"><b>Laguindingan</b></p>
+                </div>
+                </a>
+                <a href="THE VANTAGE.html">
+                <div class="image1">
+                    <img src="PROPERTIES/opa.jpg" alt="secondary">
+                    <p style="font-family: Arial, Helvetica, sans-serif; line-height: 0; opacity: 0.5; font-size: 15px; margin-top: 20px;"><b>PRE-SELLING</b></p>
+                    <p style="font-family: Arial, Helvetica, sans-serif; font-size: 25px; line-height: 0.5; opacity: 0.8; margin-top: 5px;"><b>The Vantage</b></p>
+                    <p style="font-family: Arial, Helvetica, sans-serif; line-height: 0; opacity: 0.5; font-size: 15px; margin-top: 5px;"><b>Ozamis</b></p>
+                </div>
+                </a>
+            </div>        
+        </div>
+        <div class="w3-container"> <br>
+            <div class="auimgrow1">
+                <a href="AGP CENTER.html">
+                <div class="image1">
+                    <img src="PROPERTIES/suj.jpg" alt="residential building">
+                    <p style="font-family: Arial, Helvetica, sans-serif; line-height: 0; opacity: 0.5; font-size: 15px; margin-top: 20px;"><b>MOVE-IN READY</b></p>
+                    <p style="font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 0.5; opacity: 0.8; margin-top: 5px;"><b>AGP Center Laguindingan</b></p>
+                    <p style="font-family: Arial, Helvetica, sans-serif; line-height: 0; opacity: 0.5; font-size: 15px; margin-top: 5px;"><b>Laguindingan</b></p>
+                </div>
+                </a>
+                <a href="THE GROVE.html">
+                <div class="image1">
+                    <img src="PROPERTIES/tazp.jpg" alt="building">
+                    <p style="font-family: Arial, Helvetica, sans-serif; line-height: 0; opacity: 0.5; font-size: 15px; margin-top: 20px;"><b>MOVE-IN READY</b></p>
+                    <p style="font-family: Arial, Helvetica, sans-serif; font-size: 25px; line-height: 0.5; opacity: 0.8; margin-top: 5px;"><b>The Grove</b></p>
+                    <p style="font-family: Arial, Helvetica, sans-serif; line-height: 0; opacity: 0.5; font-size: 15px; margin-top: 5px;"><b>Burgos</b></p>
+                </div>
+                </a>
+                <a href="RED OAK.html">
+                <div class="image1">
+                    <img src="PROPERTIES/paw.jpg" alt="secondary">
+                    <p style="font-family: Arial, Helvetica, sans-serif; line-height: 0; opacity: 0.5; font-size: 15px; margin-top: 20px;"><b>PRE-SELLING</b></p>
+                    <p style="font-family: Arial, Helvetica, sans-serif; font-size: 25px; line-height: 0.5; opacity: 0.8; margin-top: 5px;"><b>Red Oak</b></p>
+                    <p style="font-family: Arial, Helvetica, sans-serif; line-height: 0; opacity: 0.5; font-size: 15px; margin-top: 5px;"><b>Butuan</b></p>
+                </div>
+                </a>
+                <a href="DARK OAK.html">
+                <div class="image1">
+                    <img src="PROPERTIES/qwes.jpg" alt="building">
+                    <p style="font-family: Arial, Helvetica, sans-serif; line-height: 0; opacity: 0.5; font-size: 15px; margin-top: 20px;"><b>MOVE-IN READY</b></p>
+                    <p style="font-family: Arial, Helvetica, sans-serif; font-size: 25px; line-height: 0.5; opacity: 0.8; margin-top: 5px;"><b>Dark Oak</b></p>
+                    <p style="font-family: Arial, Helvetica, sans-serif; line-height: 0; opacity: 0.5; font-size: 15px; margin-top: 5px;"><b>Nazareth</b></p>
+                </div>
+                </a>
+                <a href="WHITE OLIVE.html">
+                <div class="image1">
+                    <img src="PROPERTIES/kiz.jpg" alt="secondary">
+                    <p style="font-family: Arial, Helvetica, sans-serif; line-height: 0; opacity: 0.5; font-size: 15px; margin-top: 20px;"><b>PRE-SELLING</b></p>
+                    <p style="font-family: Arial, Helvetica, sans-serif; font-size: 25px; line-height: 0.5; opacity: 0.8; margin-top: 5px;"><b>White Olive</b></p>
+                    <p style="font-family: Arial, Helvetica, sans-serif; line-height: 0; opacity: 0.5; font-size: 15px; margin-top: 5px;"><b>Butuan</b></p>
+                </div>
+                </a>
+            </div>        
+        </div>
+        <div class="w3-container"> <br>
+            <div class="auimgrow1">
+                <a href="PALE MARBLE.html">
+                <div class="image1">
+                    <img src="PROPERTIES/poz.jpg" alt="residential building">
+                    <p style="font-family: Arial, Helvetica, sans-serif; line-height: 0; opacity: 0.5; font-size: 15px; margin-top: 20px;"><b>PRE-SELLING</b></p>
+                    <p style="font-family: Arial, Helvetica, sans-serif; font-size: 25px; line-height: 0.5; opacity: 0.8; margin-top: 5px;"><b>Pale Marble</b></p>
+                    <p style="font-family: Arial, Helvetica, sans-serif; line-height: 0; opacity: 0.5; font-size: 15px; margin-top: 5px;"><b>Ozamis</b></p>
+                </div>
+                </a>
+            </div>
+        </div>
+    </body>
+</html>

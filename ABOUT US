@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT US</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
+    <link rel="stylesheet" href="HCI CSS.css">
+    <style type="text/css">
+        a {text-decoration:none;}
+    </style>
+</head>
+<body>
+    <div class ="w3-container">
+        <a href="ABOUT US.html">
+            <h1 id="menu">ABOUT US</h1>
+        </a>
+        <a href="CONTACT US.html">
+            <h1 id="menu">CONTACT US</h1>
+        </a>
+        <a href="HCI PROJECT.html">
+            <h1 id="head1"><b>AGP REAL ESTATES</b></h1>
+        </a>
+        <div class="search">
+            <span class="search-icon material-symbols-outlined">search</span>
+            <input class="search-input" type="search" placeholder="Search">
+        </div>
+        <a href="FINDPROPERTY.html">
+            <button class="button">Find Property</p1>
+        </a>
+    </div>
+    <img src="beldeng.jpg" id="abtuspic" width="300" alt="Apartment">
+    <div class="w3-container w3-dark-grey">
+        <div class="w3-panel" id="panel1">
+            <h1 id="head4">About AGP Real Estates</h1>
+            <div class="verticalLine">
+                <p id="panelp1" style="text-align: justify;">For nearly a decade, AGP has worked towards providing the best possible properties that possess both comfort and elegance at a reasonable cost. </p>
+            </div>
+        </div>
+    </div>
+    <div class="w3-container w3-card 4">
+        <h1 style="font-family: 'Times New Roman', Times, serif; margin-left: 105px; margin-top: 20px; line-height: 1;">Company Purpose</h1>
+        <div class="verticalLine2">
+            <p id="abtusp1" style="font-family: 'Times New Roman', Times, serif; text-align: justify;">
+                AGP has never failed to maintain its reputation, even through the rough passage of time, AGP has always maintained its quality no matter the cost. 
+                The main purpose of AGP is to satisfy the needs of their clients and stakeholders in the best way possible.
+            </p>
+        </div>
+    </div> <br>
+    <div class="w3-container">
+        <h1 id="abtushead1" style="font-family: 'Times New Roman', Times, serif">AGP Business Units</h1>
+    </div> <br>
+    <div class="w3-container">
+        <div class="auimgrow">
+            <div class="image">
+                <img src="residential.jpg" alt="residential building">
+                <p style="font-family: Arial, Helvetica, sans-serif; font-size: 25px; line-height: 0; opacity: 0.8;"><b>Residential</b></p>
+                <p style="font-family: Arial, Helvetica, sans-serif; line-height: 0; opacity: 0.5;"><i>From condos to horizontal projects, each community</i></p>
+                <p style="font-family: Arial, Helvetica, sans-serif; line-height: 0; opacity: 0.5;"><i>reflects the comfort, luxury, and exclusivity that</i></p>
+                <p style="font-family: Arial, Helvetica, sans-serif; line-height: 0; opacity: 0.5;"><i>come from living in AGP Real Estate properties.</i></p>
+            </div>
+            <div class="image">
+                <img src="beldeng.jpg" alt="building">
+                <p style="font-family: Arial, Helvetica, sans-serif; font-size: 25px; line-height: 0; opacity: 0.8;"><b>Workspaces</b></p>
+                <p style="font-family: Arial, Helvetica, sans-serif; line-height: 0; opacity: 0.5;"><i>AGP's premier workspaces in prime locations empower</i></p>
+                <p style="font-family: Arial, Helvetica, sans-serif; line-height: 0; opacity: 0.5;"><i>productivity and prioritize the well-being of</i></p>
+                <p style="font-family: Arial, Helvetica, sans-serif; line-height: 0; opacity: 0.5;"><i>employees.</i></p>
+            </div>
+            <div class="image">
+                <img src="second.jpg" alt="secondary">
+                <p style="font-family: Arial, Helvetica, sans-serif; font-size: 25px; line-height: 0; opacity: 0.8;"><b>Secondary Sales</b></p>
+                <p style="font-family: Arial, Helvetica, sans-serif; line-height: 0; opacity: 0.5;"><i>Live in exclusive AGP communities primed with</i></p>
+                <p style="font-family: Arial, Helvetica, sans-serif; line-height: 0; opacity: 0.5;"><i>elevated comfort and security.</i></p>
+            </div>
+        </div>        
+    </div>
+</html>

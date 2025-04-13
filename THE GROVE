@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE GROVE</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
+    <link rel="stylesheet" href="HCI CSS.css">
+    <style type="text/css">
+        a {text-decoration:none;}
+    </style>
+</head>
+<body>
+    <div class ="w3-container">
+        <a href="ABOUT US.html">
+            <h1 id="menu">ABOUT US</h1>
+        </a>
+        <a href="CONTACT US.html">
+            <h1 id="menu">CONTACT US</h1>
+        </a>
+        <a href="HCI PROJECT.html">
+            <h1 id="head1"><b>AGP REAL ESTATES</b></h1>
+        </a>
+        <div class="search">
+            <span class="search-icon material-symbols-outlined">search</span>
+            <input class="search-input" type="search" placeholder="Search">
+        </div>
+        <a href="FINDPROPERTY.html">
+            <button class="button">Find Property</p1>
+        </a>
+    </div>
+    <img src="PROPERTIES/tazp.jpg" id="abtuspic" width="300" alt="Apartment" style="opacity: 0.6;">
+    <div class="w3-container w3-black w3-card 4">
+        <h1 id="head4" style="color: #ffffff; letter-spacing: 1px; margin-top: 50px; margin-bottom: 50px; margin-left: 20px; font-size: 60px;">The Grove</h1>
+    </div> <br><br>
+    <div class="w3-container">
+        <h1 style="font-family: 'Times New Roman', Times, serif; margin-left: 120px; margin-top: 20px; line-height: 1;">Simplicity and Modernity combined in one space</h1>
+        <div class="verticalLine3">
+            <p id="abtusp1" style="font-family: Arial, Helvetica, sans-serif; text-align: left; font-size: 15px; opacity: 0.8;">
+                The Grove is a building with rentable office spaces located at Burgos, Cagayan de Oro City. It features a simple and clean interior and exterior that is both visually pleasing and functionable.
+            </p>
+        </div>
+    </div> <br><br>
+    <div style="margin-left: 200px; margin-right: 200px; background-color: #000000ab; display: flex;">
+        <div>
+            <img src="SIZE.png" style="margin-left: 130px; margin-top: 20px;">
+            <h1 style="font-family: 'Times New Roman', Times, serif; font-size: 20px; color: #ffffff; margin-left: 60px; margin-top: 20px;">Property Specifications</h1>
+            <p style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: #ffffff; margin-left: 55px; margin-top: 10px;">- 1 Building</p>
+            <p style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: #ffffff; margin-left: 55px; margin-top: 10px;">- 20 Office Spaces</p>
+        </div>
+        <div class="verticalLine4"></div>
+        <div>
+            <img src="FEATURES.png" style="margin-left: 115px; margin-top: 20px;">
+            <h1 style="font-family: 'Times New Roman', Times, serif; font-size: 20px; color: #ffffff; margin-left: 75px; margin-top: 20px;">Property Features</h1>
+            <p style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: #ffffff; margin-left: 55px; margin-top: 10px;">- Exclusive Parking Area</p>
+        </div>
+        <div class="verticalLine4"></div>
+        <div>
+            <img src="FLOORS.png" style="margin-left: 95px; margin-top: 20px;">
+            <h1 style="font-family: 'Times New Roman', Times, serif; font-size: 20px; color: #ffffff; margin-left: 70px; margin-top: 20px;">No. of Floors</h1>
+            <p style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: #ffffff; margin-left: 55px; margin-top: 10px;">- 3 Floors</p>
+        </div>
+        <div class="verticalLine4"></div>
+        <div>
+            <img src="PRICE.png" style="margin-left: 85px; margin-top: 20px;">
+            <h1 style="font-family: 'Times New Roman', Times, serif; font-size: 20px; color: #ffffff; margin-left: 92px; margin-top: 20px;">Price</h1>
+            <p style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: #ffffff; margin-left: 15px; margin-top: 10px;">- 200,000 PHP per office space</p>
+        </div>
+    </div>
+    <br><br><br><br>
+    <div class="w3-container w3-dark-grey w3-card 4">
+        <h1 id="head4" style="color: #ffffff; letter-spacing: 1px; margin-top: 30px; margin-bottom: 30px; margin-left: 20px; font-size: 40px;">Get in touch today</h1>
+    </div>
+    <div class="w3-container w3-card 4">
+        <div class="contact">
+            <h1 style="font-family: 'Times New Roman', Times, serif;">Contact Us</h1>
+            <p id="contactp" style="line-height: 0.6">Globe: (+63)916-2033-249</p>                              
+            <p id="contactp" style="line-height: 0.6">Smart: (+63)921-3244-289</p>                                  
+            <p id="contactp"s style="line-height: 0.6">Email: agp.realestates@gmail.com</p> <br>
+            <h1 style="font-family: 'Times New Roman', Times, serif;">Location</h1>
+            <div class="embed-map-fixed"><div class="embed-map-container"><iframe class="embed-map-frame" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&height=400&hl=en&q=gusa%20liling%20achas%20store&t=&z=14&ie=UTF8&iwloc=B&output=embed"></iframe><a href="https://sprunkiretake.net" style="font-size:2px!important;color:gray!important;position:absolute;bottom:0;left:0;z-index:1;max-height:1px;overflow:hidden">sprunki retake</a></div><style>.embed-map-fixed{position:relative;text-align:right;width:600px;height:400px;}.embed-map-container{overflow:hidden;background:none!important;width:600px;height:400px;}.embed-map-frame{width:600px!important;height:400px!important;}</style></div>
+            <h1 style="margin-left: 750px; line-height: 0.5; font-family: 'Times New Roman', Times, serif;">Send us a Message</h1> <br> 
+            <form>
+                <label style="margin-left: 750px; font-size: 18px;"><i>Email*</i></label> <br>
+                <input type="email" style="margin-left: 750px;width: 400px;" required><br>
+                <label style="margin-left: 750px; font-size: 18px;"><i>First Name*</i></label>
+                <input type="text" style="margin-left: 750px;width: 400px;" required>
+                <label style="margin-left: 750px; font-size: 18px;"><i>Last Name*</i></label>
+                <input type="text" style="margin-left: 750px;width: 400px;" required>
+                <label style="margin-left: 750px; font-size: 18px;"><i>Phone</i></label>
+                <input type="text" style="margin-left: 750px;width: 400px;" required>
+                <label style="margin-left: 750px; font-size: 18px;"><i>Your Message*</i></label>
+                <textarea rows="2" cols="20" style="margin-left: 750px; width: 400px; height: 60px; resize: none; overflow: hidden; padding: 8px; font-size: 14px; border: 1px solid #000000; border-radius: 10px;" required></textarea>    
+                <input type="submit" value="Send" style="margin-left: 750px;width: 150px; border-radius: 28px;"> <br><br> 
+            </form>
+            <form>
+                <h1 style="margin-left: 150px; font-family: 'Times New Roman', Times, serif;">Subscribe to our mailings list for updates on the latest listings!</h1>
+                <label style="margin-left: 400px; font-size: 18px;">Email*</label> <br>
+                <input type="email" placeholder="eg.email@example.com" style="margin-left: 400px;width: 400px;" required><br>
+                <label style="margin-left: 400px; font-size: 18px;">First Name*</label> <br>
+                <input type="text" placeholder="First name" style="margin-left: 400px;width: 400px;" required> <br>
+                <label style="margin-left: 400px; font-size: 18px;">Last Name*</label> <br>
+                <input type="text" placeholder="Last name" style="margin-left: 400px;width: 400px;" required><br>
+                <label style="margin-left: 400px; font-size: 18px;">Phone</label> <br>
+                <input type="text" placeholder="Phone" style="margin-left: 400px;width: 400px;" required> <br><br>
+                <input type="submit" value="Subscribe for Free" style="margin-left: 520px;width: 150px; border-radius: 28px;"> <br><br>
+            </form>
+        </div>
+    </div>    
+</html>

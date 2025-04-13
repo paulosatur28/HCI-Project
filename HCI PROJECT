@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
+    <link rel="stylesheet" href="HCI CSS.css">
+    <style type=""></style>
+    <style type="text/css">    
+        a {text-decoration:none;}
+    </style>
+</head>
+<body>
+    <div class ="w3-container w3-light-grey">
+        <a href="ABOUT US.html">
+            <h1 id="menu">ABOUT US</h1>
+        </a>
+        <a href="CONTACT US.html">
+            <h1 id="menu">CONTACT US</h1>
+        </a>
+        <a href="HCI PROJECT.html">
+            <h1 id="head1"><b>AGP REAL ESTATES</b></h1>
+        </a>
+        <div class="search">
+            <span class="search-icon material-symbols-outlined">search</span>
+            <input class="search-input" type="search" placeholder="Search">
+        </div>
+        <a href="FINDPROPERTY.html">
+            <button class="button">Find Property</p1>
+        </a>
+    </div> <br>
+    <h1 id="head3">AGP Real Estates is your Real Estate Partner in the Philippines</h1> 
+    <video id="vid1" width="1500" autoplay muted loop>
+        <source src="homevid.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video> <br>
+    <div>
+        <h1 id="head2">Welcome to AGP Real Estates</h1>
+        <p id="p1">Come to the AGP Real Estates community for a comforting and nurturing community that turns a house into a home.</p> <br>
+        <div class="homep">
+            <div class="w3-card w3-dark-grey" style="max-width: 1500px; margin: auto;">
+                <div class="w3-col m5">
+                    <img src="building.webp" alt="Image" style="width: 100%; object-fit: cover;">
+                </div>
+                <div class="w3-col m7 w3-container">                  
+                    <p id="p2">
+                       Escape to an elevated space reaching even the stars here at AGP Real Estates,
+                       where comfort and freedom is enjoyed to the maximum while taking aesthetics
+                       into consideration.                            
+                    </p>
+                </div> 
+            </div> <br>
+        </div> <br> <br>
+        <video id="vid2" width="500" controls autoplay muted loop>
+            <source src="agp.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video> <br>
+        <p id="panel1">FEATURED PROPERTY</p>
+        <div class="w3-container w3-dark-grey">
+            <div class="w3-panel" id="panel1">
+                <h1 id="head4">Galaxy Homes by AGP Real Estates</h1>
+                <p id="panelp1">Embrace comfort and elegance at Galaxy Homes by AGP Real Estates, where sleek and luxurious designs are meticulously aranged to create a home that feels like paradise everyday. </p>
+            </div>
+        </div>
+        <a href="GALAXY.html">
+            <div class="w3-container w3-dark-grey">
+                <button class="button1">Explore ></p1>
+            </div>
+        </a>
+    </div>
+    <hr>
+    <div class="w3-container w3-card 4">
+        <div class="contact">
+            <h1 style="font-family: 'Times New Roman', Times, serif;">Contact Us</h1>
+            <p id="contactp" style="line-height: 0.6">Globe: (+63)916-2033-249</p>                              
+            <p id="contactp" style="line-height: 0.6">Smart: (+63)921-3244-289</p>                                  
+            <p id="contactp"s style="line-height: 0.6">Email: agp.realestates@gmail.com</p> <br>
+            <h1 style="font-family: 'Times New Roman', Times, serif;">Location</h1>
+            <div class="embed-map-fixed"><div class="embed-map-container"><iframe class="embed-map-frame" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&height=400&hl=en&q=gusa%20liling%20achas%20store&t=&z=14&ie=UTF8&iwloc=B&output=embed"></iframe><a href="https://sprunkiretake.net" style="font-size:2px!important;color:gray!important;position:absolute;bottom:0;left:0;z-index:1;max-height:1px;overflow:hidden">sprunki retake</a></div><style>.embed-map-fixed{position:relative;text-align:right;width:600px;height:400px;}.embed-map-container{overflow:hidden;background:none!important;width:600px;height:400px;}.embed-map-frame{width:600px!important;height:400px!important;}</style></div>
+            <h1 style="margin-left: 750px; line-height: 0.5; font-family: 'Times New Roman', Times, serif;">Send us a Message</h1> <br> 
+            <form>
+                <label style="margin-left: 750px; font-size: 18px;"><i>Email*</i></label> <br>
+                <input type="email" style="margin-left: 750px;width: 400px;" required><br>
+                <label style="margin-left: 750px; font-size: 18px;"><i>First Name*</i></label>
+                <input type="text" style="margin-left: 750px;width: 400px;" required>
+                <label style="margin-left: 750px; font-size: 18px;"><i>Last Name*</i></label>
+                <input type="text" style="margin-left: 750px;width: 400px;" required>
+                <label style="margin-left: 750px; font-size: 18px;"><i>Phone</i></label>
+                <input type="text" style="margin-left: 750px;width: 400px;" required>
+                <label style="margin-left: 750px; font-size: 18px;"><i>Your Message*</i></label>
+                <textarea rows="2" cols="20" style="margin-left: 750px; width: 400px; height: 60px; resize: none; overflow: hidden; padding: 8px; font-size: 14px; border: 1px solid #000000; border-radius: 10px;" required></textarea>    
+                <input type="submit" value="Send" style="margin-left: 750px;width: 150px; border-radius: 28px;"> <br><br> 
+            </form>
+            <form>
+                <h1 style="margin-left: 150px; font-family: 'Times New Roman', Times, serif;">Subscribe to our mailings list for updates on the latest listings!</h1>
+                <label style="margin-left: 400px; font-size: 18px;">Email*</label> <br>
+                <input type="email" placeholder="eg.email@example.com" style="margin-left: 400px;width: 400px;" required><br>
+                <label style="margin-left: 400px; font-size: 18px;">First Name*</label> <br>
+                <input type="text" placeholder="First name" style="margin-left: 400px;width: 400px;" required> <br>
+                <label style="margin-left: 400px; font-size: 18px;">Last Name*</label> <br>
+                <input type="text" placeholder="Last name" style="margin-left: 400px;width: 400px;" required><br>
+                <label style="margin-left: 400px; font-size: 18px;">Phone</label> <br>
+                <input type="text" placeholder="Phone" style="margin-left: 400px;width: 400px;" required> <br><br>
+                <input type="submit" value="Subscribe for Free" style="margin-left: 520px;width: 150px; border-radius: 28px;"> <br><br>
+            </form>
+        </div>
+    </div>    
+    </body>
+</html>
